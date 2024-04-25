@@ -1,25 +1,21 @@
-# Cab-Fare-Prediction-AI-Challenge
+# Problem Statement:
+- In the bustling urban environments served by ride-sharing services like Lyft and Uber, accurately predicting cab fares is essential for both passengers and service providers. Leveraging historical ride data, geographic factors, and temporal trends, my aim is to develop a robust model that forecasts cab fares with precision and reliability.
 
+# Dataset: 
+- The dataset, gathered from extensive ride records of Lyft and Uber services, consists of 100,000 samples in the training set and 25,000 samples in the test set. It encompasses a wide array of features including ride distances, pickup locations, drop-off locations, timestamps, and additional contextual data, providing a rich foundation for predictive modeling.
 
-## This is my approach for this Dockship's Hackathon. On final standings, I Got Rank 1 on leaderboard.
+# Techniques:
+- Outlier Detection and Treatment:
+    - Stringent outlier detection and treatment techniques are applied to ensure the accuracy and robustness of the predictive model, effectively handling anomalies in the cab fare data.
+- Feature Engineering:
+    - Advanced feature engineering methodologies are implemented to extract nuanced insights from the dataset, capturing intricate relationships between ride attributes and fare prices.
+- Cross-Validation:
+    - Cross-validation techniques are employed to assess the generalization capability of the model, mitigating overfitting and ensuring its reliability across diverse ride scenarios and geographical areas.
+- Ensembling with Model Stacking:
+    - A diverse ensemble of models, meticulously fine-tuned, are combined using model stacking, harnessing the collective predictive power of multiple algorithms for superior accuracy and robustness.
 
-### Problem Statement
-The aim of the challenge is to predict the cab fare using the given dataset. The dataset consists of 3 CSV files:
+# Approach:
+- After thorough data exploration, key features and trends influencing cab fares are identified. Innovative feature engineering techniques are then applied to uncover latent patterns within the dataset. Subsequently, advanced machine learning models are trained and ensembled to develop a high-performing predictive model capable of accurately estimating cab fares based on various ride attributes and contextual factors.
 
-TRAIN.csv
-TEST.csv
-sample_submission.csv
-TRAIN.csv consists of 9 attributes:
-
-index
-time_stamp - epoch time (in seconds) when the cab was booked
-cab_provider - company (Uber/Lyft)
-source - the starting point of the cab ride
-destination - the destination of the cab ride
-distance - the distance between source and destination
-surge_multiplier - multiplier by which price increased
-cab_type - the type of cab (Uber Pool, Uber XL, etc. )
-fare - cab fare in USD (Target Attribute)
-
-## Link to the leaderboard:
-https://dockship.io/challenges/6006ba605c9276402bd77d96/cab-fare-prediction-ai-challenge/leaderboard
+# Conclusion:
+- My approach amalgamates comprehensive data analysis, innovative feature engineering, and ensemble modeling techniques to create a powerful cab fare prediction model. By leveraging historical ride data, geographic information, and temporal trends, I have developed a reliable solution that provides accurate fare forecasts in dynamic urban environments served by ride-sharing services. Securing 1st place in the Cab Fare Prediction AI Challenge on dockship.io, with an exceptional RMSE score of 1.61983, underscores the efficacy and competitiveness of my model. The ensemble model, bolstered by rigorous outlier treatment and cross-validation, ensures precision and reliability, empowering both passengers and service providers to make informed decisions in the competitive ride-sharing landscape.
